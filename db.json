@@ -1,0 +1,130 @@
+{
+"producto":  [
+    {
+          "name": "Taza Stormtrooper",
+          "imageUrl": "https://cdnm.westwing.com.br/glossary/uploads/br/2015/04/17230112/copo-geek-em-cima-de-mesa-unsplash-c-a7332.jpg",
+          "price": "60.00",
+          "description": "###",
+          "id": 1
+    },
+    {
+          "name": "Headshot Vader",
+          "imageUrl": "https://oph-rodez.fr/wp-content/uploads/2021/11/Comment-visualiser-camera-wifi-de-surveillance-sur-mon-PC-.jpeg",
+          "price": "230.00",
+          "description": "###",
+          "id": 2
+    },
+    {
+          "name": "Figurilla de Yoda",
+          "imageUrl": "https://th.bing.com/th/id/OIP.gnza-bxguU65jgYSVswoYQHaFO?pid=ImgDet&w=1080&h=762&rs=1",
+          "price": "217.00",
+          "description": "###",
+          "id": 3
+    },
+    {
+          "name": "Soldado Imperial",
+          "imageUrl": "https://media.licdn.com/dms/image/D5612AQHTmN75Vwvnfw/article-cover_image-shrink_600_2000/0/1665692158306?e=1694649600&v=beta&t=j5IGeRbi0XinBqQ4cV6_VMgxnqJwXuwsrYupDHvzoXo",
+          "price": "100.00",
+          "description": "###",
+          "id": 4
+    },
+    {
+          "name": "Muñeco de Grogu",
+          "imageUrl": "https://aderezo.mx/wp-content/uploads/2021/03/jonathan-cooper-R8L1l9RN198-unsplash-1024x732.jpg",
+          "price": "280.00",
+          "description": "###",
+          "id": 5
+    },
+    {
+          "name": "Figura de Kylo Ren",
+          "imageUrl": "https://miro.medium.com/v2/resize:fit:720/0*VkJN2OGYk0GpuQf2",
+          "price": "540.00",
+          "description": "###",
+          "id": 6
+    },
+    {
+          "name": "Control Xbox",
+          "imageUrl": "https://www.prtechnologystore.com/uploads/1/7/2/4/17247606/s220454402123074793_c192_i3_w3851.jpeg?width=640",
+          "price": "420.00",
+          "description": "###",
+          "id": 7
+    },
+    {
+          "name": "Consola PlayStation5",
+          "imageUrl": "https://www.lifo.gr/sites/default/files/styles/main/public/articles/2022-08-25/playstation5.jpg?itok=Wk7szMgZ",
+          "price": "1990.00",
+          "description": "###",
+          "id": 8
+    },
+    {
+          "name": "Nintendo Retro",
+          "imageUrl": "https://cdn.shopify.com/s/files/1/0588/9713/7824/collections/NES_-_Consoles_1200x1200_crop_center.jpg?v=1650486437",
+          "price": "2040.00",
+          "description": "###",
+          "id": 9
+    },
+    {
+          "name": "Control Nintendo",
+          "imageUrl": "https://th.bing.com/th/id/OIP.3W4zZIPoEHrVb-AnrSwTmgAAAA?pid=ImgDet&w=320&h=320&rs=1",
+          "price": "650.00",
+          "description": "###",
+          "id": 10
+    },
+    {
+          "name": "Consola Xbox",
+          "imageUrl": "https://th.bing.com/th/id/OIP.lIpSB0anDBM0Mjwl0LZ0lAHaEt?pid=ImgDet&w=600&h=382&rs=1",
+          "price": "1770.00",
+          "description": "###",
+          "id": 11
+    },
+    {
+          "name": "Consola GameBoy",
+          "imageUrl": "https://th.bing.com/th/id/OIP.7_MG7Mq27Qstqtclx5DC3AAAAA?pid=ImgDet&w=360&h=294&rs=1",
+          "price": "1300.00",
+          "description": "###",
+          "id": 12
+    },
+    {
+          "name": "Remera Atari",
+          "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/51w04zNVk8L._AC_UX522_.jpg",
+          "price": "80.00",
+          "description": "###",
+        "id": 13
+    },
+    {
+          "name": "Remera Nintendo",
+          "imageUrl": "https://th.bing.com/th/id/OIP.zJiiEC-jC99-CwgTqblQTQAAAA?pid=ImgDet&w=300&h=300&rs=1",
+          "price": "70.00",
+          "description": "###",
+        "id": 14
+    },
+    {
+          "name": "Figurilla de Sonic",
+          "imageUrl": "https://beinghuman.org/wp-content/uploads/2022/08/What-Animal-Is-Knuckles-From-Sonic-741x486.jpg",
+          "price": "40.00",
+          "description": "###",
+        "id": 15
+    },
+    {
+          "name": "Radio retro Rosa",
+          "imageUrl": "https://assets.puzzlefactory.com/puzzle/339/011/original.jpg",
+          "price": "280.00",
+          "description": "###",
+        "id": 16
+    },
+    {
+          "name": "Realidad virtual",
+          "imageUrl": "https://th.bing.com/th/id/OIP.gPYlcyt6whUGwqVKcQi3KQHaHa?pid=ImgDet&w=720&h=720&rs=1",
+          "price": "950.00",
+          "description": "###",
+        "id": 17
+    },
+    {
+          "name": "Disfraz de Pikachu",
+          "imageUrl": "https://th.bing.com/th/id/OIP.V2cur2bSnR882pThb1MKygHaJ3?pid=ImgDet&rs=1",
+          "price": "460.00",
+          "description": "###",
+         "id": 18
+    }	
+    ]
+}

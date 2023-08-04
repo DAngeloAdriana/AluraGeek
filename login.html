@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon.png">
+    <title>Alura Geek E-Commerce</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/reset.css">
+    <link rel="stylesheet" href="./CSS/flexbox.css">
+    <link rel="stylesheet" href="./CSS/login.css">
+</head>
+<body>
+    <header>
+        <!--************** NAV LOGIN **************-->
+        <nav class="header_container">
+            <div class="nav_login">
+                <a href="index.html"><img class="logo" src="images/logo.svg" alt="Logo de AluraGeek"></a>
+            </div>
+
+            <div class="nav_search">
+                <input type="search" name="search" class="search" placeholder="¿Qué deseas buscar?">
+                <svg xmlns="http://www.w3.org/2000/svg" class="input-icon" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd" />
+                </svg>
+            </div>
+
+            <div class="nav_btn">
+                <a href="login.html"><button class="login_btn">Login</button></a>
+            </div>
+        </nav>
+    </header>
+        <!--************** FRONT PAGE **************-->
+    <main>
+        <section class="front-page">
+            <div class="front-page_container">
+                <h1 class="titulo_principal">Febrero Promocional</h1>
+                <h2 class="subtitulo_principal">Productos seleccionados con un 33% de descuento</h2>
+                <a href="consolas.html"><button class="front-page_btn">Ver Consolas</button></a>
+            </div>
+        </section>
+            <!--************** LOGIN **************-->
+        <section class="login_container">
+            <section class="iniciar_sesion">
+                <p class="text_sesion">Iniciar sesión</p>
+            </section>
+            <form>
+                <div class="login_usuario">
+                    <input class="form_email" type="email" name="text" placeholder="Escriba su correo electrónico" id="">
+                </div>
+                <div class="login_contrasenia">
+                    <input class="form_password" type="password" name="text" placeholder="Escriba su contraseña" id="">
+                </div>
+            </form>
+                <div class="login_btn-entrar">
+                    <a href="index.html"><button class="entrar_btn">Entrar</button></a>
+                </div>
+        </section>
+    </main>
+
+     <!--************** FOOTER **************-->
+     <footer class="footer_container">
+        <section class="footer_items">
+            <section class="footer_inline">
+                <div>
+                    <img src="images/logo.svg" class="logo_footer" alt="Logo de AluraGeek">
+                </div>
+            </section>
+            <section class="footer_inline">
+                <div class="footer_enlaces">
+                    <ul>
+                        <li class="enlace_pie"><a href="#" class="footer_links">Quiénes somos</a></li>
+                        <li class="enlace_pie"><a href="#" class="footer_links">Política de privacidad</a></li>
+                        <li class="enlace_pie"><a href="#" class="footer_links">Programa de fidelidad</a></li>
+                        <li class="enlace_pie"><a href="#" class="footer_links">Nuestras tiendas</a></li>
+                        <li class="enlace_pie"><a href="#" class="footer_links">Quiero ser franquiciado</a></li>
+                        <li class="enlace_pie"><a href="#" class="footer_links">Anuncie aquí</a></li>
+                    </ul>
+                </div>
+            </section>
+            <section class="footer_inline">
+                <div class="footer_form">                    
+                    <form action="">
+                        <h2 class="form_title">Hable con nosotros</h2>
+                        <input class="form_text" type="text" name="text" placeholder="Nombre" id="">
+                        <textarea class="form_msj" placeholder="Escribe tu mensaje" name="" id="" rows="5"></textarea>
+                        <input class="form_btn" type="button" value="Enviar mensaje ">
+                    </form>
+                </div>
+            </section>
+        </section>
+    </footer>
+        <p class="desarrollado_por">
+            Desarrollado por <a href="https://github.com/DAngeloAdriana" target="_blank" class="tinna">Adriana D'Angelo</a>
+            2023
+        </p>
+        <script type="module" src="./controllers/crear-productos-controllers.js"></script>
+        <script type="module" src="./controllers/productos-controllers.js"></script>
+</body>
+</html>

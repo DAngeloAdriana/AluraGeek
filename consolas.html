@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon.png">
+    <title>Alura Geek E-Commerce</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/reset.css">
+    <link rel="stylesheet" href="./CSS/flexbox.css">
+    <link rel="stylesheet" href="./CSS/todos.css">
+</head>
+<body>
+    <header>
+        <!--************** NAV LOGIN **************-->
+        <nav class="header_container>
+            <div class="nav_login">
+                <a href="index.html"><img class="logo" src="images/logo.svg" alt="Logo de AluraGeek"></a>
+            </div>
+
+            <div class="nav_search">
+                <input type="search" name="search" class="search" placeholder="¿Qué deseas buscar?">
+                <svg xmlns="http://www.w3.org/2000/svg" class="input-icon" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd" />
+                </svg>
+            </div>
+
+            <div class="nav_btn">
+                <a href="login.html"><button class="login_btn">Login</button></a>
+            </div>
+        </nav>
+    </header>
+        <!--************** FRONT PAGE **************-->
+    <main>
+        <section class="front-page">
+            <div class="front-page_container">
+                <h1 class="titulo_principal">Febrero Promocional</h1>
+                <h2 class="subtitulo_principal">Productos seleccionados con un 33% de descuento</h2>
+                <a href="consolas.html"><button class="front-page_btn">Ver Consolas</button></a>
+            </div>
+        </section>
+            <!--************** PRODUCTS **************-->
+            <section class="products_container">
+                <div class="productos">
+                    <h1 class="products_title">Consolas</h1>
+                    <div>
+                        <a href="index.html"><img src="images/arrow-reverse.png" class="arrow_reverse" alt="Flecha Volver Atrás"></a>
+                        <a href="index.html" class="products_verTodos">Volver atrás</a>
+                    </div>
+                </div>
+                    <section class="products_items">
+                    <div>
+                        <img src="images/xbox-control.jpg" class="img_producto" alt="Xbox Control">
+                        <h2 class="product_description">Control Xbox</h2>
+                        <h3 class="precio">$ 420,00</h3>
+                        <a href="producto.html" class="products_links">Ver producto</a>
+                    </div>
+    
+                    <div>
+                        <img src="images/console-ps5.jpg" class="img_producto" alt="Consola PlayStation5">
+                        <h2 class="product_description">Consola PlayStation5</h2>
+                        <h3 class="precio">$ 1990,00</h3>
+                        <a href="producto.html" class="products_links">Ver producto</a>
+                    </div>
+    
+                    <div>
+                        <img src="images/console-nintendo.jpg" class="img_producto" alt="Consola Retro Nintendo">
+                        <h2 class="product_description">Nintendo Retro</h2>
+                        <h3 class="precio">$ 2040,00</h3>
+                        <a href="producto.html" class="products_links">Ver producto</a>
+                    </div>
+    
+                    <div>
+                        <img src="images/nintendo-control.jpg" class="img_producto" alt="Control Nintendo">
+                        <h2 class="product_description">Control Nintendo</h2>
+                        <h3 class="precio">$ 650,00</h3>
+                        <a href="producto.html" class="products_links">Ver producto</a>
+                    </div>
+    
+                    <div>
+                        <img src="images/console-xbox.jpg" class="img_producto" alt="Consola Xbox">
+                        <h2 class="product_description">Consola Xbox</h2>
+                        <h3 class="precio">$ 1770,00</h3>
+                        <a href="producto.html" class="products_links">Ver producto</a>
+                    </div>
+    
+                    <div>
+                        <img src="images/nintendo-gameboy.jpg" class="img_producto" alt="Consola GameBoy">
+                        <h2 class="product_description">Consola GameBoy</h2>
+                        <h3 class="precio">$ 1300,00</h3>
+                        <a href="producto.html" class="products_links">Ver producto</a>
+                    </div>
+                </section>
+            </section>
+
+     <!--************** FOOTER **************-->
+     <footer class="footer_container">
+        <section class="footer_items">
+            <section class="footer_inline">
+                <div>
+                    <img src="images/logo.svg" class="logo_footer" alt="Logo de AluraGeek">
+                </div>
+            </section>
+            <section class="footer_inline">
+                <div class="footer_enlaces">
+                    <ul>
+                        <li class="enlace_pie"><a href="#" class="footer_links">Quiénes somos</a></li>
+                        <li class="enlace_pie"><a href="#" class="footer_links">Política de privacidad</a></li>
+                        <li class="enlace_pie"><a href="#" class="footer_links">Programa de fidelidad</a></li>
+                        <li class="enlace_pie"><a href="#" class="footer_links">Nuestras tiendas</a></li>
+                        <li class="enlace_pie"><a href="#" class="footer_links">Quiero ser franquiciado</a></li>
+                        <li class="enlace_pie"><a href="#" class="footer_links">Anuncie aquí</a></li>
+                    </ul>
+                </div>
+            </section>
+            <section class="footer_inline">
+                <div class="footer_form">                    
+                    <form action="">
+                        <h2 class="form_title">Hable con nosotros</h2>
+                        <input class="form_text" type="text" name="text" placeholder="Nombre" id="">
+                        <textarea class="form_msj" placeholder="Escribe tu mensaje" name="" id="" rows="5"></textarea>
+                        <input class="form_btn" type="button" value="Enviar mensaje ">
+                    </form>
+                </div>
+            </section>
+        </section>
+    </footer>
+        <p class="desarrollado_por">
+            Desarrollado por <a href="https://github.com/DAngeloAdriana" target="_blank" class="tinna">Adriana D'Angelo</a>
+            2023
+        </p>
+        <script type="module" src="./controllers/crear-productos-controllers.js"></script>
+        <script type="module" src="./controllers/productos-controllers.js"></script>
+</body>
+</html>

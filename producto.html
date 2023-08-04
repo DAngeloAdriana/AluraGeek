@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon.png">
+    <title>Alura Geek E-Commerce</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/reset.css">
+    <link rel="stylesheet" href="./CSS/flexbox.css">
+    <link rel="stylesheet" href="./CSS/producto.css">
+</head>
+<body>
+    <header>
+        <!--************** NAV LOGIN **************-->
+        <nav class="header_container>
+            <div class="nav_login">
+                <a href="index.html"><img class="logo" src="images/logo.svg" alt="Logo de AluraGeek"></a>
+            </div>
+
+            <div class="nav_search">
+                <input type="search" name="search" class="search" placeholder="¿Qué deseas buscar?">
+                <svg xmlns="http://www.w3.org/2000/svg" class="input-icon" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd" />
+                </svg>
+            </div>
+
+            <div class="nav_btn">
+                <a href="login.html"><button class="login_btn">Login</button></a>
+            </div>
+        </nav>
+    </header>
+        <!--************** FRONT PAGE **************-->
+    <main>
+        <section class="front-page">
+            <div class="front-page_container">
+                <h1 class="titulo_principal">Febrero Promocional</h1>
+                <h2 class="subtitulo_principal">Productos seleccionados con un 33% de descuento</h2>
+                <a href="consolas.html"><button class="front-page_btn">Ver Consolas</button></a>
+            </div>
+        </section>
+            <!--************** PRODUCTO **************-->
+        <section class="producto_container">
+            <div class="boton_producto">
+                <a href="agregar.html"><button class="agregar_btn">Agregar producto</button></a>
+            </div>
+            <section class="producto_enVista">
+                <div>
+                    <img src="images/sw-cup.jpg" class="img_enVista" alt="Taza de Star Wars">
+                </div>
+                <div class="product_text">
+                    <h2 class="product_name">Taza Stormtrooper</h2>
+                    <h3 class="precio">$ 60,00</h3>
+                    <p class="enVista_description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus sint animi, cumque reiciendis assumenda quis ex debitis, culpa non possimus sit corporis facere qui! Eius natus ullam nam ut fugit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident tempora amet maxime delectus iste soluta hic adipisci, recusandae cumque ipsum quasi harum autem dolor optio doloremque dolorum quas nam nulla.</p>
+                </div>
+            </section>
+            <!--************** PRODUCTOS SIMILARES **************-->
+            <section class="products_container">
+            <div class="products_similares">
+                <h1 class="similares">Productos similares</h1>
+            </div>
+            <section class="products_items">
+                <div class="div_producto">
+                    <img src="images/sw-vader.jpg" class="img_producto" alt="Darth Vader">
+                    <h2 class="product_description">Headshot Vader</h2>
+                    <h3 class="precio">$ 230,00</h3>
+                    <a href="producto.html" class="products_links">Ver producto</a>
+                </div>
+
+                <div class="div_producto">
+                    <img src="images/sw-yoda.jpg" class="img_producto" alt="Yoda">
+                    <h2 class="product_description">Figurilla de Yoda</h2>
+                    <h3 class="precio">$ 217,00</h3>
+                    <a href="producto.html" class="products_links">Ver producto</a>
+                </div>
+
+                <div class="div_producto">
+                    <img src="images/sw-stormtrooper.jpg" class="img_producto" alt="Stormtrooper">
+                    <h2 class="product_description">Soldado imperial</h2>
+                    <h3 class="precio">$ 490,00</h3>
+                    <a href="producto.html" class="products_links">Ver producto</a>
+                </div>
+
+                <div class="div_producto"> 
+                    <img src="images/sw-grogu.jpg" class="img_producto" alt="Figurilla de Grogu">
+                    <h2 class="product_description">Muñeco de Grogu</h2>
+                    <h3 class="precio">$ 280,00</h3>
+                    <a href="producto.html" class="products_links">Ver producto</a>
+                </div>
+            </section>
+        </section>
+    </section>
+    </main>
+     <!--************** FOOTER **************-->
+     <footer class="footer_container">
+        <section class="footer_items">
+            <section class="footer_inline">
+                <div>
+                    <img src="images/logo.svg" class="logo_footer" alt="Logo de AluraGeek">
+                </div>
+            </section>
+            <section class="footer_inline">
+                <div class="footer_enlaces">
+                    <ul>
+                        <li class="enlace_pie"><a href="#" class="footer_links">Quiénes somos</a></li>
+                        <li class="enlace_pie"><a href="#" class="footer_links">Política de privacidad</a></li>
+                        <li class="enlace_pie"><a href="#" class="footer_links">Programa de fidelidad</a></li>
+                        <li class="enlace_pie"><a href="#" class="footer_links">Nuestras tiendas</a></li>
+                        <li class="enlace_pie"><a href="#" class="footer_links">Quiero ser franquiciado</a></li>
+                        <li class="enlace_pie"><a href="#" class="footer_links">Anuncie aquí</a></li>
+                    </ul>
+                </div>
+            </section>
+            <section class="footer_inline">
+                <div class="footer_form">                    
+                    <form action="">
+                        <h2 class="form_title">Hable con nosotros</h2>
+                        <input class="form_text" type="text" name="text" placeholder="Nombre" id="">
+                        <textarea class="form_msj" placeholder="Escribe tu mensaje" name="" id="" rows="5"></textarea>
+                        <input class="form_btn" type="button" value="Enviar mensaje ">
+                    </form>
+                </div>
+            </section>
+        </section>
+    </footer>
+        <p class="desarrollado_por">
+            Desarrollado por <a href="https://github.com/DAngeloAdriana" target="_blank" class="tinna">Adriana D'Angelo</a>
+            2023
+        </p>
+        <script type="module" src="./controllers/crear-productos-controllers.js"></script>
+        <script type="module" src="./controllers/productos-controllers.js"></script>
+</body>
+</html>
